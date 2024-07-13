@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.925 s <<< FAILURE! - in TestSuite
-testCreateNewLeadResourceByPassingIncompleteObjects(api.TC01_Lead)  Time elapsed: 16.907 s  <<< FAILURE!
-java.lang.AssertionError: expected [400] but found [200]
-	at api.TC01_Lead.testCreateNewLeadResourceByPassingIncompleteObjects(TC01_Lead.java:122)
-
