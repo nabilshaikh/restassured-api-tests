@@ -30,8 +30,7 @@ jobs:
           ${{ runner.os }}-maven-
 
     - name: Set up Maven
-      run: mvn clean
-	  run: mvn install
+      run: mvn clean && mvn install
 
     - name: Run tests
       run: mvn test -Dsurefire.suiteXmlFiles=testng.xml
