@@ -100,26 +100,26 @@ public class TC01_Lead {
         assertEquals(description, "Body cannot be empty or null", "Expected description does not match");
     }
 	
-//	@Test(enabled=true)
-//	@Step("Verify the lead resource should not be created if the response body is incomplete")
-//    public void testCreateNewLeadResourceByPassingIncompleteObjects() throws IOException {
-//        String bearerToken = dotenv.get("BEARER_TOKEN");
-//        
-//        // Read request body from file
-//        String requestBody = cm.readFileAsString("src/test/resources/req.json");
-//        
-//        Response response =
-//        given().
-//        	header("Authorization", "Bearer " + bearerToken).
-//        	header("Content-Type", "application/json").
-//        	body(requestBody).
-//        when().
-//        	post(dotenv.get("ENDPOINT_LEAD")).
-//        then().
-//        	extract().
-//        	response();
-//        System.out.println("Resp is: " + response.asPrettyString());
-//        assertEquals(response.statusCode(), 400);
-//    }
+	@Test(enabled=true)
+	@Step("Verify the lead resource should not be created if the response body is incomplete")
+    public void testCreateNewLeadResourceByPassingIncompleteObjects() throws IOException {
+        String bearerToken = dotenv.get("BEARER_TOKEN");
+        
+        // Read request body from file
+        String requestBody = cm.readFileAsString("src/test/resources/req.json");
+        
+        Response response =
+        given().
+        	header("Authorization", "Bearer " + bearerToken).
+        	header("Content-Type", "application/json").
+        	body(requestBody).
+        when().
+        	post(dotenv.get("ENDPOINT_LEAD")).
+        then().
+        	extract().
+        	response();
+        System.out.println("Resp is: " + response.asPrettyString());
+        assertEquals(response.statusCode(), 400);
+    }
 
 }
