@@ -1,0 +1,19 @@
+{
+   "brand":{
+      "name":{
+         "en":"merchant name in en"
+      }
+   },
+   "entity":{
+      "country":"AE",
+      "license":{
+         "number":"1010000000",
+         "country":"AE",
+         "type":"LLC"
+      }
+   },
+   "user":{
+      "email":"john.dou@gmail.com",
+      "phone":"9090909090"
+   }
+}

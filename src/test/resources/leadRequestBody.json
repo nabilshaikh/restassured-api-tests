@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "name": {
+      "en": "merchant name en",
+      "ar": "merchant name ar"
+    },
+    "logo": "file_656848322076980748",
+    "operations": {
+      "sales": {
+        "period": "monthly",
+        "range": {
+          "from": "10000",
+          "to": "80000"
+        },
+        "currency": "AED"
+      }
+    }
+  },
+  "entity": {
+    "country": "AE",
+    "is_licensed": true,
+    "license": {
+      "number": "1010000000",
+      "country": "AE",
+      "type": "commercial_registration"
+    },
+    "tax": {
+      "number": "123456789",
+      "issuing_date": "2022-01-01",
+      "expiry_date": "2025-01-01"
+    }
+  },
+  "wallet": {
+    "bank": {
+      "name": "ADIB",
+      "account": {
+        "name": "ABC",
+        "number": "77777777777",
+        "swift": "77777777777",
+        "iban": "SA000000000000000009"
+      }
+    }
+  },
+  "user": {
+    "name": {
+      "lang": "en",
+      "title": "Mr",
+      "first": "John",
+      "last": "Dou"
+    },
+    "nationality": "AE",
+    "identification": {
+      "number": "00000000",
+      "type": "national_id",
+      "issuer": "AE"
+    },
+    "birth": {
+      "country": "AE",
+      "city": "Dubai",
+      "date": "1990-01-01"
+    },
+    "primary": true
+  },
+  "post": {
+    "url": "https://merchant.company/post_url"
+  },
+  "metadata": {
+    "param1": "value"
+  }
+}
