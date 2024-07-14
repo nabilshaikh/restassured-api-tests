@@ -27,9 +27,13 @@ The <ins>allure-results</ins> directory gets created only after the first test r
 
 - Implemented using the latest version of RestAssured [(v5.5.0)](https://github.com/rest-assured/rest-assured/wiki/Downloads) & [TestNG](https://testng.org/) as of today.
 - Based on Gherkin standard.
-- Provides console and HTML reports using [Allure](https://www.npmjs.com/package/@shelex/cypress-allure-plugin).
+- Provides console and HTML reports using [Allure](https://allurereport.org/docs/restassured/).
 - All tests are configured on [CI/CD pipeline](https://github.com/nabilshaikh/restassured-api-tests/actions), hence not requiring any manual intervention to run tests.
 - Moreover, to learn how this project evolves throughout the development stage, please refer to the [PRs](https://github.com/nabilshaikh/restassured-api-tests/pulls?q=is%3Apr+is%3Aclosed) in chronological order.
+
+<br>
+
+<right><p align="right">(<a href="#about">back to top</a>)</p></right>
 
 ## Getting Started
 
